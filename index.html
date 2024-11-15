@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="description" content="Присоединяйтесь к нашему курсу и станьте фронтенд-разработчиком! Изучите HTML, CSS, JavaScript и React с нуля и начните карьеру в веб-разработке.">
-    <meta name="keywords" content="фронтенд, курс фронтенд, HTML, CSS, JavaScript, React, веб-разработка, обучение, программирование">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tehniku.uz">
-    <meta property="og:title" content="Курс по Фронтенд-разработке — HTML, CSS, JavaScript и React">
-    <meta property="og:description" content="Станьте фронтенд-разработчиком с нуля! Изучите HTML, CSS, JavaScript и React.">
-    <meta property="og:image" content="https://jasur7855.github.io/Tehnikum_59/img/pic_Roman-Ickov.png">
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Присоединяйтесь к нашему курсу и станьте фронтенд-разработчиком! Изучите HTML, CSS, JavaScript и React с нуля и начните карьеру в веб-разработке."
+    />
+    <meta
+      name="keywords"
+      content="фронтенд, курс фронтенд, HTML, CSS, JavaScript, React, веб-разработка, обучение, программирование"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tehniku.uz" />
+    <meta
+      property="og:title"
+      content="Курс по Фронтенд-разработке — HTML, CSS, JavaScript и React"
+    />
+    <meta
+      property="og:description"
+      content="Станьте фронтенд-разработчиком с нуля! Изучите HTML, CSS, JavaScript и React."
+    />
+    <meta
+      property="og:image"
+      content="https://jasur7855.github.io/Tehnikum_59/img/pic_Roman-Ickov.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Frontend Developer Course — HTML, CSS, JavaScript, and React"
+    />
+    <meta
+      name="twitter:description"
+      content="Join our frontend developer course and learn HTML, CSS, JavaScript, and React from scratch! Start your web development career with us."
+    />
+    <meta name="twitter:image" content="https://example.com/your-image.jpg" />
+     <link rel="icon" href="./img/Icon_winning_cup.svg" type="image/x-icon">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet" />
@@ -356,7 +382,11 @@
       <section class="review">
         <h2 class="main-title">Отзывы наших студентов</h2>
 
-        <section id="splide2" class="splide" aria-label="Splide Basic HTML Example">
+        <section
+          id="splide2"
+          class="splide"
+          aria-label="Splide Basic HTML Example"
+        >
           <div class="splide__track">
             <ul class="splide__list splide_flex">
               <li class="splide__slide splide_flex">
@@ -436,7 +466,7 @@
           aria-label="Splide Basic HTML Example"
         >
           <div class="splide__track">
-            <ul class="splide__list ">
+            <ul class="splide__list">
               <li class="splide__slide splide__center">
                 <img
                   class="slideIMG"
@@ -542,21 +572,21 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var splide2 = new Splide("#splide2", {
-          type:"loop",
+          type: "loop",
           perPage: 3,
-          perMove:1,
+          perMove: 1,
           arrows: false,
           breakpoints: {
             1220: {
               perPage: 2,
-              perMove:1,
+              perMove: 1,
               arrows: false,
-              },
-              800:{
-                  perPage: 1,
-                  perMove:2,
-                },
             },
+            800: {
+              perPage: 1,
+              perMove: 2,
+            },
+          },
         });
         splide2.mount();
       });
