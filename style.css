@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'TT Hoves', sans-serif;
+    font-family: Arial, 'TT Hoves', sans-serif;
     font-size:  calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
     font-weight: 400;
 }
